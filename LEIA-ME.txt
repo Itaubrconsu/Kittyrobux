@@ -1,0 +1,6 @@
+LOJA ROBUX - ARQUIVOS PARA HOSPEDAGEM
+
+Envie index.html, style.css, script.js e a pasta imagens inteira para a mesma pasta no seu servidor/hospedagem. Abra index.html para testar.
+
+O botão WhatsApp direciona para https://wa.me/5522981701415.
+O pagamento Pix permanece indisponível nesta versão: não há integração real com gateway nem código Pix configurado.

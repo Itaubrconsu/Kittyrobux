@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Loja de Robux</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="menu">☰</div><div class="brand">LOJA PIX</div><button class="login">◎ Entrar</button></header>
+<div class="activity-bar" aria-live="polite">
+ <span class="live-dot"></span><strong><span id="online-count">1.100</span> visitantes online (contador ilustrativo)</strong>
+ <span class="demo-label">SIMULAÇÃO • NÃO SÃO DADOS REAIS</span>
+</div>
+<div class="purchase-toast hidden" id="purchase-toast" aria-live="polite">
+ <span class="toast-icon">✓</span><span id="toast-message">Compra demonstrativa</span>
+</div>
+<div class="search">⌕ &nbsp; Busque jogos, gift cards e mais</div>
+ <main>
+<section id="store">
+ <div class="hero"><h1>ROBLOX<small>LOJA DE CRÉDITOS • DEMONSTRAÇÃO</small></h1></div>
+ <div class="trust"><span>✓ Compra demonstrativa</span><span>⚡ Simulação</span><span>▣ Sem cobrança</span></div>
+ <div class="promo-banner" aria-label="Banner Roblox"><img src="imagens/imagem_2.webp" alt="Avatar Roblox em fundo amarelo"><div class="promo-caption">ESCOLHA SEUS ROBUX</div></div>\n <h2><span class="step">1</span> ESCOLHA SEU PACOTE</h2><p class="sale-note">Confira os pacotes e seus preços.</p>
+ <div class="grid" id="packages"></div>
+ <div class="bottom"><span id="chosen">Nenhum pacote escolhido</span><button class="continue" id="continue" disabled>CONTINUAR ›</button></div>
+</section>
+<section id="payment" class="hidden">
+ <div class="checkout">
+  <h1>Quase lá! Seu pedido foi criado com sucesso.</h1>
+  <div class="lead">Confira os dados do pedido abaixo.</div>
+  <div class="pix">
+   <h3>Pagamento</h3>
+   <p>Valor: <span class="total" id="total">R$ 0,00</span></p>
+   <div class="countdown-panel" id="countdown-panel">
+    <span>Tempo restante para pagar</span>
+    <strong id="countdown">01:00</strong>
+   </div>
+   <p class="notice" id="expiry-message">Este pedido expira quando o contador chegar a zero.</p>
+   <hr style="border-color:#555">
+   <h3>Pix Copia e Cola</h3>
+   <p>Para receber pagamentos reais, use um código gerado por um provedor de pagamentos autorizado e confira o nome do recebedor antes de pagar.</p>
+   <div class="fakecode">Pix indisponível nesta versão. Nenhum código de pagamento foi configurado.</div>
+   <button class="copy" id="copy" type="button">Pix indisponível</button>
+  </div>
+  <button class="back" id="back">‹ Voltar e escolher outro pacote</button>
+ </div>
+</section>
+</main>
+<script src="script.js" defer></script>
+
+<a class="whatsapp-float" href="https://wa.me/5522981701415" target="_blank" rel="noopener noreferrer" aria-label="Falar pelo WhatsApp">WhatsApp</a>
+</body></html>
